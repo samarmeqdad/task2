@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name :"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="16dp"
+        android:hint="student name"
+        android:layout_marginLeft="190dp"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Id :"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        android:layout_below="@+id/student_name"
+        />
+    <TextView
+        android:id="@+id/student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="40dp"
+        android:hint="student id"
+        android:layout_marginLeft="190dp"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Level :"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        android:layout_below="@+id/student_id"
+        />
+    <TextView
+        android:id="@+id/student_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="5dp"
+        android:hint="student level"
+        android:layout_marginLeft="180dp"
+        android:textColor="#000"
+        android:layout_below="@+id/student_id"
+        android:textSize="15sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Avg :"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        android:layout_below="@+id/student_level"
+        />
+    <TextView
+        android:id="@+id/student_avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="5dp"
+        android:hint="student avg"
+        android:layout_marginLeft="170dp"
+        android:textColor="#000"
+        android:layout_below="@+id/student_level"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_below="@+id/student_avg"
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
